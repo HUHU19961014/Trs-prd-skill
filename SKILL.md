@@ -1,7 +1,7 @@
 ---
 name: writing-functional-specs
 description: "Use when 用户需要编写功能设计文档、PRD或需求规格说明书，也用于询问如何编写TRS系统功能文档、文档模板、编写规范或评估功能价值与风险时。"
-version: 3.7
+version: 1.0
 ---
 
 # TRS系统-功能设计文档编写
@@ -549,20 +549,20 @@ How (如何)      → 解决方案、替代方案
 ## File Structure
 
 ```
-TRS系统-功能设计文档编写/
-├── SKILL.md                    # 主文件（精简版）
+追溯系统-功能设计文档编写/
+├── SKILL.md                    # 主文件（加载此文件）
 ├── CHECKLIST_V2.0.md           # 质量检查清单
 ├── README.md                   # 使用说明
 ├── CHANGELOG.md                # 更新日志
-├── reference/
-│   ├── document-structure.md   # 完整章节结构
-│   ├── templates.md            # 各类模板集合
-│   ├── tools.md                # 实用工具集
-│   ├── examples.md             # 详细示例库
-│   ├── traceability-domain.md  # 追溯领域模板（谱系/召回/审计/采集）
-│   └── prototype-driven.md     # ⭐原型驱动PRD编写指南
-└── testing/
-    └── pressure-scenarios.md   # 测试场景
+├── VISUAL_README.html          # 可视化全览图（浏览器打开）
+├── reference.docx              # Word导出模板（微软雅黑 + 全包框线）
+└── reference/
+    ├── templates.md            # 11个文档模板
+    ├── prototype-driven.md     # ⭐原型驱动详细指南
+    ├── traceability-domain.md  # 追溯领域专用模板
+    ├── document-structure.md  # 各章节详细内容说明
+    ├── examples.md            # 完整文档示例
+    └── tools.md                # 10个实用工具
 ```
 
 ## Additional Resources
@@ -585,7 +585,6 @@ TRS系统-功能设计文档编写/
 
 ---
 
-**Skill版本：** 3.3
-**重构日期：** 2026年4月10日
-**基于：** 企业顾问团队标准 + GitHub热门PRD模板 + 某客户优秀实践（客户A）
-**更新说明：** 新增"原型驱动PRD编写场景"，支持从HTML/图片等原型直接理解并编写PRD
+**Skill版本：** 1.0
+**更新日期：** 2026-04-11
+**说明：** 首次公开发布版本（公测）

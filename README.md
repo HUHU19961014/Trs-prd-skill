@@ -171,20 +171,18 @@ Agent：
 ```
 追溯系统-功能设计文档编写/
 ├── SKILL.md                    # ⭐ 主文件（加载此文件）
-├── CHECKLIST_V2.0.md           # 质量检查清单（写完后逐项核对）
+├── CHECKLIST_V2.0.md           # 质量检查清单
 ├── README.md                   # 本文件（介绍与快速开始）
 ├── CHANGELOG.md                # 更新日志
 ├── VISUAL_README.html          # 🎨 可视化全览图（浏览器打开）
 ├── reference.docx              # Word导出模板（微软雅黑 + 全包框线）
 └── reference/
-    ├── templates.md            # 11个文档模板（含数据项规范模板）
+    ├── templates.md            # 11个文档模板
     ├── prototype-driven.md     # ⭐ 原型驱动PRD编写详细指南
-    ├── traceability-domain.md  # 追溯领域专用模板（谱系/召回/审计）
+    ├── traceability-domain.md  # 追溯领域专用模板
     ├── document-structure.md   # 各章节详细内容说明
     ├── examples.md             # 完整文档示例
-    └── tools.md                # 10个实用工具
-└── testing/
-    └── pressure-scenarios.md   # 测试场景（验证Skill行为）
+    └── tools.md                # 实用工具集
 ```
 
 > 💡 **想要可视化全览图？** 打开 `VISUAL_README.html`，可以直观看到Skill的完整逻辑架构（两种模式 / 五大原则 / 质控门 / 数据项规范等全部章节）
@@ -195,13 +193,12 @@ Agent：
 
 | 属性 | 值 |
 |------|-----|
-| 当前版本 | 3.8 |
+| 当前版本 | 1.0 |
 | 更新日期 | 2026-04-11 |
-| 本次更新 | README全面重写 + 新增VISUAL_README.html可视化全览图 |
-| 演化历史 | V3.1数据项规范 → V3.3原型驱动 → V3.5字号模板 → V3.6接口契约业务化 → V3.7质控门 → V3.8可视化 |
+| 版本性质 | 首次公开发布（公测） |
 | 基于标准 | 企业顾问团队标准 + GitHub热门PRD模板 + 追溯系统行业最佳实践 |
 
-完整更新日志见 [CHANGELOG.md](CHANGELOG.md)。
+更新日志见 [CHANGELOG.md](CHANGELOG.md)。
 
 ---
 
